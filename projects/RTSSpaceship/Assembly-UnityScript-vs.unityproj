@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B750E043-2557-2C54-275A-163FE2B6966F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_2;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\corescripts\jrts\JCamRenderImage.js" />
+     <Compile Include="Assets\corescripts\jrts\JCamRenderTexture.js" />
+     <Compile Include="Assets\corescripts\jrts\JControls\JRTSCameraManageControl.js" />
+     <Compile Include="Assets\corescripts\jrts\JControls\JRTSCameraSpaceship.js" />
+     <Compile Include="Assets\corescripts\jrts\JControls\JRTSFireControlTest.js" />
+     <Compile Include="Assets\corescripts\jrts\JDrawDebug.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSData.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSGameConfig.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSGamePlayer.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSGamemode.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSLevel.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSResourceData.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSResourceInfo.js" />
+     <Compile Include="Assets\corescripts\jrts\JGame\JRTSResourceManagement.js" />
+     <Compile Include="Assets\corescripts\jrts\JGroundUnits\JRTSUnit.js" />
+     <Compile Include="Assets\corescripts\jrts\JGroundUnits\jRTSGroundTurret.js" />
+     <Compile Include="Assets\corescripts\jrts\JGroundUnits\jRTSGroundUnitDetects.js" />
+     <Compile Include="Assets\corescripts\jrts\JGroundUnits\jRTSGroundUnitStatBar.js" />
+     <Compile Include="Assets\corescripts\jrts\JGroundUnits\jRTSGroundUnitTurretWeaponHandle.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRPGSpaceshipHealthBar3DMesh.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSResourceHUD.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSSpaceshipHUD.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSSpaceshipHUDCommand.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSSpaceshipHUD_Command.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSSpaceshipHUD_Ship3Person.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSSpaceshipIconDisplayUnit.js" />
+     <Compile Include="Assets\corescripts\jrts\JHUD\JRTSTeamColorMaterials.js" />
+     <Compile Include="Assets\corescripts\jrts\JProjectiles\JRTSDeploy.js" />
+     <Compile Include="Assets\corescripts\jrts\JProjectiles\JRTSProjectileLife.js" />
+     <Compile Include="Assets\corescripts\jrts\JProjectiles\JRTSProjectileUnit.js" />
+     <Compile Include="Assets\corescripts\jrts\JProjectiles\JRTSSpaceshipProjectile.js" />
+     <Compile Include="Assets\corescripts\jrts\JProjectiles\JRTSSpaceshipProjectileMine.js" />
+     <Compile Include="Assets\corescripts\jrts\JRTSPartModule.js" />
+     <Compile Include="Assets\corescripts\jrts\JRTSRadarDetect.js" />
+     <Compile Include="Assets\corescripts\jrts\JRTSRadiusDetect.js" />
+     <Compile Include="Assets\corescripts\jrts\JRTSSelectBorderLine.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRPGSpaceshipUpdateHealth.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipCameraControl.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipCarrier.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipCarrierVolumePoint.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipChangeCraft.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipHullTrigger.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipSelectUnits.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipShipyard.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipStation.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipUnit.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshipUnitControl.js" />
+     <Compile Include="Assets\corescripts\jrts\JSpaceshipUnits\JRTSSpaceshippoint.js" />
+     <Compile Include="Assets\corescripts\jrts\JTime.js" />
+     <Compile Include="Assets\corescripts\jrts\JTurrets\JRTSSpaceshipTurret.js" />
+     <Compile Include="Assets\corescripts\jrts\JTurrets\JRTSStationTurret.js" />
+     <Compile Include="Assets\corescripts\jrts\JTurrets\JRTSTurretIDC.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapBeam.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapDeployable.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapHandle.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapMine.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapMissile.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapProjectile.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeapon.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\JRTSSpaceshipWeaponSlots.js" />
+     <Compile Include="Assets\corescripts\jrts\JWeapon\jRTSSpaceUnitTurretWeaponHandle.js" />
+     <Compile Include="Assets\corescripts\jrts\LookAt.js" />
+     <Compile Include="Assets\corescripts\jrts\MoveAround.js" />
+     <Compile Include="Assets\corescripts\jrts\jbot\JRTSBotShipController.js" />
+     <Compile Include="Assets\corescripts\jsCodeTag.js" />
+     <Compile Include="Assets\corescripts\looktest.js" />
+     <Compile Include="Assets\scripts\Status3DBar.js" />
+     <Compile Include="Assets\scripts\killmeovertime.js" />
+     <Compile Include="Assets\scripts\turretcontrol.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\readme.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\credits.txt" />
+     <None Include="Assets\todolist.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

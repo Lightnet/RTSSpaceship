@@ -1,0 +1,18 @@
+Date:2011.06.01 [yeah/month/day]
+Created By: Darknet
+
+User:Litenet
+
+Site:https://sourceforge.net/projects/animecodeworld/
+
+Unknown Name Project : RTSSpaceship
+
+
+Credits:
+
+Software Used:
+-Blender 2.49
+-Unity3D 3.3
+-Gimp 2.6.11
+
+

@@ -1,0 +1,2 @@
+-need to fixed when ship delopy disable projectiles.
+-nedd to fixed when it command mode or player mode
